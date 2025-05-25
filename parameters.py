@@ -8,4 +8,4 @@ class Parameters:
     final_temper=1
     c=math.pow(final_temper/initial_temper,itertimes)
     fleetminratio=0.20
-    blinkrate=0.10
+    blinkrate=0.01

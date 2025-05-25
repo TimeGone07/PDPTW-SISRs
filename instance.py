@@ -108,7 +108,7 @@ class Instance:
 
         print(f"Complete Read Instance : {fileName}")
         return Instance(fileName, capacity, depot, customers, distMatrix)
-        
+
     def getpairnode(self,cus):
         if cus.pickuppair == 0:
             #print(cus.id,cus.deliverypair)

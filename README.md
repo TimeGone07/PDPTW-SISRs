@@ -12,8 +12,10 @@ We provide a brief report of the numerical experiments.
 The results are obtained by running our code on instances provided by Carlo S. Sartori(Carlo S. Sartori, Luciana S. Buriol,
 A study on the pickup and delivery problem with time windows: Matheuristics and new instances,
 Computers & Operations Research). And the github is here(https://github.com/cssartori/pdptw-instances.git).
+However, we added `random removal` to the Ruin stage, with the `string removal` and `string split removal` together.
+It may seems not good for the algorithm, but actually helpful for the solution in our tests.
 
-Column `Obj` indicates the objective value of our algorithm (which is measured by total distance),
+In the follow table, column `Obj` indicates the objective value of our algorithm (which is measured by total distance),
 `#.T` shows the number of vehicles used in our solution, `CPU(s)` denotes the CPU time in seconds, 
 `Gap BKS(%)` is the gap to the Best-Known Solution (BKS), 
 `BKS #.T` is the number of vehicles used in the BKS.
